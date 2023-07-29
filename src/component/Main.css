@@ -1,0 +1,42 @@
+.landing-page {
+
+
+    /* background-color: rgba(0, 0, 0, 0.726) !important; */
+    background-image: url('../assets/img-back1.jpg');
+    width: 100%;
+    height: 100vh;
+    /* Adjust this to the desired height */
+
+    background-size: cover;
+    background-position: center;
+}
+
+.landing-page-overlay {
+
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Adjust the alpha (last value) to change the opacity */
+}
+
+.background {
+    background-image: url('../assets/img-back2.jpg');
+    width: 100%;
+    height: 70vh;
+    /* Adjust this to the desired height */
+
+    background-size: cover;
+    background-position: center;
+}
+
+
+.background-landing-page-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    /* height: max-content; */
+    /* height: max-content; */
+
+}
+@media only screen and (max-width: 600px) {
+    .background {
+        width: 100%;
+        height: 40vh;
+    }
+  }
